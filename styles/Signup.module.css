@@ -1,0 +1,95 @@
+.mainDiv{
+    display: flex;
+    margin :auto;
+    width: 80vw;
+    height: 90vh ;
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: 80vw;
+    height: 90vh ;
+    background-color: rgb(255, 255, 255);
+    border-radius: 0px 20px 20px 0px;
+    
+}
+
+.signup{
+    font-size: 28px;
+    text-align: center;
+    position: sticky;
+    padding-top: 50px;
+    margin: auto;
+}
+
+.subHeading{
+    font-size: 24px;
+    font-weight: 100;
+}
+  
+.imageSection {
+    width: 100%;
+    height: inherit;
+}
+  
+.imageSection img {
+    max-width:100%; 
+    height: inherit;
+    object-fit: fill;
+    border-radius: 20px 0px 0px 20px;
+}
+  
+.form{
+    padding: 25px 75px;
+    overflow-y: scroll;
+    height: 68vh;
+}
+
+.formDiv{
+    width: fit-content;
+}
+
+.formExample{
+    display: grid;
+    grid-template-columns: 250px 180px;
+    position: relative;
+    margin-bottom: 10px;
+    padding: 10px 0;
+    justify-content: center;
+    border-radius: 20spx;
+    
+}
+
+.formExample label{
+    font-size: 19px;
+}
+
+.formExample input{
+    border: 1px solid black;
+    height: 30px;
+    border-radius: 2px;
+    padding: 8px;
+}
+
+.formExamples{
+    margin-bottom: 30px;
+}
+
+.submit{
+    display: flex;
+    justify-content: center;
+    align-content: center   ;
+    padding:30px 0;
+    position: sticky;
+   padding-bottom: 30px;
+}
+      
+.submit button{
+    padding: 16px 34px;
+    background-color: rgb(176, 149, 75);
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+}
