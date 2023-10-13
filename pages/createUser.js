@@ -27,7 +27,7 @@ let data = JSON.stringify({
   let config = {
     method: 'post',
     maxBodyLength: Infinity,
-    url: 'http://localhost:3000/insurance/signup',
+    url: 'http://localhost:3001/insurance/signup',
     headers: { 
       'Content-Type': 'application/json',
       'Access-Control-Allow-Origin' : '*',
