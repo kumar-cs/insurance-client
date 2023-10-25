@@ -1,0 +1,44 @@
+.postioning{
+    width:'20%';
+    margin-bottom:'20px'
+}
+
+.forFontSize{
+    font-size: 12px;
+}
+
+@media screen and (max-width:560.5px) {
+    .postioning{
+        width:'40%';
+        margin-bottom:'20px' 
+    } 
+}
+/* 
+@media (min-width:305.5px) and (max-width:345.5px) {
+    .positioning{
+        position: absolute;
+        top: 17%;
+        right: 3.5%;
+    } 
+}
+
+@media (min-width:346px) and (max-width:461.5px) {
+    .positioning{
+        position: absolute;
+        top: 16%;
+        right: 3.5%;
+    } 
+}
+
+@media (min-width:462px) and (max-width:600px) {
+    .positioning{
+        position: absolute;
+        top: 14%;
+        right: 3%;
+    } 
+} */
+
+
+
+
+
